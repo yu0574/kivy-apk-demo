@@ -1,0 +1,9 @@
+from kivy.app import App
+from kivy.uix.label import Label
+
+class TestApp(App):
+    def build(self):
+        return Label(text="云端打包成功！", font_size=30)
+
+if __name__ == "__main__":
+    TestApp().run()
